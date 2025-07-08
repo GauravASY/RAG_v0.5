@@ -1,0 +1,15 @@
+[project]
+name = "rag-01"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain>=0.3.25",
+    "langchain-community>=0.3.25",
+    "langchain-huggingface>=0.3.0",
+    "langchain-pinecone>=0.2.8",
+    "pinecone>=7.0.2",
+    "pypdf>=5.6.0",
+    "python-dotenv>=1.1.0",
+]
